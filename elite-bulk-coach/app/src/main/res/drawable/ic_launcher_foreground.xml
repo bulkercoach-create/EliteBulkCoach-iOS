@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Shadow -->
+    <path
+        android:fillColor="#3000F2FE"
+        android:pathData="M54,23 L79,77 L64,77 L54,54 L44,77 L29,77 Z" />
+
+    <!-- Left Arrow Wing of AXON 'A' -->
+    <path android:pathData="M54,26 L52,26 L32,74 L44,74 L50,60 L54,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="74"
+                android:endX="54"
+                android:endY="26"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00B8D4" />
+                <item android:offset="0.6" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#80F7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Arrow Wing of AXON 'A' -->
+    <path android:pathData="M54,26 L56,26 L76,74 L64,74 L58,60 L54,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="76"
+                android:startY="74"
+                android:endX="54"
+                android:endY="26"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0097A7" />
+                <item android:offset="0.6" android:color="#00F2FE" />
+                <item android:offset="1.0" android:color="#80F7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Arrow Cuts / Geometric Notch -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M54,36 L61,54 L54,50 L47,54 Z" />
+
+    <!-- Sharp Upward Cyan Chevron Highlight inside notch -->
+    <path android:pathData="M54,38 L60,52 L54,48 L48,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="52"
+                android:endX="60"
+                android:endY="38"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="1.0" android:color="#00E5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Apex Tip Accent -->
+    <path
+        android:fillColor="#E0FFFF"
+        android:pathData="M54,24 L56,29 L52,29 Z" />
+
+</vector>
